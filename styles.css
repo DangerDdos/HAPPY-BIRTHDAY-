@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     /* Ubah latar belakang menjadi gambar yang diunggah */
-    background: url("https://photos.fife.usercontent.google.com/pw/AP1GczMYoizXSAlpoDu4MpZNYUPoyuxbvtxigeIWG7DKGBhaTawwmv2BQ4Sv=w514-h913-s-no-gm?authuser=0") no-repeat center center fixed;
+    background: url("https://photos.app.goo.gl/AagLrDotzisN9knG6") no-repeat center center fixed;
     background-size: cover;
     display: flex;
     justify-content: center;
