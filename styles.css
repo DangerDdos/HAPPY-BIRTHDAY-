@@ -2,14 +2,16 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+    /* Ubah latar belakang menjadi gambar yang diunggah */
+    background: url("https://photos.fife.usercontent.google.com/pw/AP1GczMYoizXSAlpoDu4MpZNYUPoyuxbvtxigeIWG7DKGBhaTawwmv2BQ4Sv=w514-h913-s-no-gm?authuser=0") no-repeat center center fixed;
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     text-align: center;
-    animation: backgroundAnimation 10s infinite alternate;
 }
+
 
 @keyframes backgroundAnimation {
     0% { background: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%); }
