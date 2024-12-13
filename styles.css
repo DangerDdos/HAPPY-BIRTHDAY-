@@ -73,15 +73,27 @@ footer {
     box-shadow: 0 -5px 10px rgba(0,0,0,0.1);
 }
 
-img {
-    max-width: 100%;
-    border-radius: 10px;
-    margin-top: 20px;
+.balloons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.balloons img {
+    max-width: 100px;
     animation: float 3s infinite;
 }
 
 @keyframes float {
     0% { transform: translatey(0px); }
-    50% { transform: translatey(-10px); }
+    50% { transform: translatey(-20px); }
     100% { transform: translatey(0px); }
+}
+
+.cake {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-top: 20px;
+    animation: float 4s infinite;
 }
